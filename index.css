@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("green.jpeg");
+    background-size: cover; /* Set the background-size to cover */
+    background-repeat: no-repeat; /* Prevent repeating the background image */
+    background-position: center;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+}
+
+
+
+.container {
+    padding: 10px;
+    text-align: left;
+}
+
+.home-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.nav-buttons {
+    float: right;
+}
+
+.nav-btn {
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.login-btn { /* Add styles for the "Login" button */
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* Text color to white */
+    border: 1px solid #fff; /* White border with 1px width */
+    border-radius: 20px; /* Rounded edges */
+}
+
+#footer-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+    font-weight: 800; /* Extra bold */
+    font-size: 24px; /* Adjust font size as needed */
+    padding: 20px; /* Add some padding to the text for better visibility */
+}
+
+.blue-text {
+    color: blue; /* Text color for "Digital Revolution" */
+}
+
+.white-text {
+    color: white; /* Text color for "Be a part of this" */
+}
+/* Adjust button styles as needed */
