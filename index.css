@@ -105,3 +105,42 @@ body {
     font-weight: 800;
     font-size: 24px;
 }
+
+.boxes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the boxes horizontally */
+    gap: 20px; /* Adjust the gap to control the spacing between boxes */
+    margin-top: 20px;
+}
+
+
+.box {
+    flex: 1 1 0px; /* Set the flex-basis to 0px to reduce initial width */
+    height: 300px; /* You can keep the height as 300px or modify it as desired */
+    background-color: #cce5ff; /* Light Blue */
+    color: black; /* Text color is black */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px;
+    position: relative; /* Add position relative to the box */
+}
+
+.box:nth-child(1) {
+    background-color: #cce5ff; /* Light Blue */
+}
+
+.box:nth-child(2) {
+    background-color: #ffd9e6; /* Light Pink */
+}
+
+.box:nth-child(3) {
+    background-color: #ffffcc; /* Light Yellow */
+}
