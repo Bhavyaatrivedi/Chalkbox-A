@@ -9,6 +9,12 @@ body {
     height: 100vh;
 }
 
+.first-section {
+    height: 100vh; /* Set the height to 100vh to fill the viewport */
+    overflow-y: scroll; /* Enable vertical scrolling */
+    scroll-behavior: smooth; /* Add smooth scrolling behavior */
+    position: relative; /* Add position: relative to contain the absolutely positioned white-section */
+}
 
 
 .container {
@@ -67,4 +73,35 @@ body {
 .white-text {
     color: white; /* Text color for "Be a part of this" */
 }
-/* Adjust button styles as needed */
+
+.white-section {
+    position: absolute; /* Change position to absolute */
+    top: 100%; /* Position it below the first section */
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.features-container {
+    margin-top: 20px;
+}
+
+.features-btn {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.features-text {
+    color: black;
+    font-weight: 800;
+    font-size: 24px;
+}
